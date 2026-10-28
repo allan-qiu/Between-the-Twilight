@@ -1,0 +1,46 @@
+[
+  {
+    "time": 3,
+    "image": "/media/frame-0.jpg",
+    "colors": [
+      "#AF613C",
+      "#9E4D39",
+      "#4D4238",
+      "#5B4339",
+      "#764539"
+    ]
+  },
+  {
+    "time": 7,
+    "image": "/media/frame-1.jpg",
+    "colors": [
+      "#5E4138",
+      "#AD3339",
+      "#D62B35",
+      "#933939",
+      "#D23634"
+    ]
+  },
+  {
+    "time": 12,
+    "image": "/media/frame-2.jpg",
+    "colors": [
+      "#4C463B",
+      "#1D1F1C",
+      "#574C40",
+      "#7E5E43",
+      "#37332C"
+    ]
+  },
+  {
+    "time": 18,
+    "image": "/media/frame-3.jpg",
+    "colors": [
+      "#1D1F1C",
+      "#544D41",
+      "#2E2D28",
+      "#8F6746",
+      "#625445"
+    ]
+  }
+]

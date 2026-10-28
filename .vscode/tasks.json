@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "DUSK: 启动网站服务",
+      "type": "process",
+      "command": "node",
+      "args": ["${workspaceFolder}/scripts/serve.mjs"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "dusk",
+        "pattern": {
+          "regexp": "^(.*):(\\d+):(\\d+): (.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^DUSK server starting",
+          "endsPattern": "^DUSK:"
+        }
+      },
+      "presentation": { "reveal": "silent", "panel": "dedicated" }
+    }
+  ]
+}
